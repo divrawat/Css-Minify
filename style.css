@@ -1,0 +1,68 @@
+#head1{
+    text-align: center;
+}
+.head2{
+    text-align: center;
+}
+
+
+textarea:focus {
+	outline: none;
+  	border: 1px solid red;
+}
+
+
+.inputtextarea{
+   text-align: center;
+}
+.outputtextarea{
+   text-align: center;
+   margin-top: 25px;
+   
+}
+
+.minifybtn{
+text-align: center;
+margin-top: 15px;
+}
+
+#cssinputarea{
+    color: red;
+    border: none;
+    box-shadow: rgb(248, 84, 84) 0px 0px 0px 2px;
+}
+
+#cssoutputarea{
+    /* background-color: rgb(240, 238, 239); */
+    box-shadow: rgb(19, 192, 134) 0px 0px 0px 2px;
+    border: none;
+    color: rgb(11, 192, 101);
+}
+
+#btnclass,#btnclass1,#btnclass2{
+    font-size: 22px;
+    font-weight: 550;
+    padding: 8px;
+    border: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(54, 54, 158);
+    background-color: rgb(90, 235, 235);
+    box-shadow: rgba(4, 4, 117, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#btnclass:hover{
+    color: black;
+    background-color: rgb(81, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#btnclass1:hover{
+    color: black;
+    background-color: rgb(81, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#btnclass2:hover{
+    color: black;
+    background-color: rgb(81, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
