@@ -1,5 +1,6 @@
 var inputbutton=document.getElementById("btnclass")
 var outputbutton=document.getElementById("btnclass1")
+var input = document.getElementById("cssinputarea")
 var cleartxtbutton=document.getElementById("btnclass2")
 var csstobeminified=document.getElementById('cssinputarea')
 var minifiedcss=document.getElementById('cssoutputarea')
@@ -10,6 +11,7 @@ let output;
 
 
 function Functionminify(){
+    var inputValue = document.getElementById("cssinputarea").value
     inputbutton.innerHTML="Minified"
 
     inputbutton.style.fontWeight = "400";
@@ -21,10 +23,8 @@ function Functionminify(){
     }, 2000);
    
 
-output=csstobeminified.value
-a = output.trim();
-
- minifiedcss.value=a; //STRING
+    // ADDING MINIFY TO OUTPUT BOX
+    minifiedcss.value=inputValue.toLowerCase().replace(/\s+/g, "");
 
 }
 
